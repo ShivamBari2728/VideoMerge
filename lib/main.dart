@@ -131,26 +131,26 @@ class _MyAppState extends State<MyApp> {
       title: 'Video Merger',
       home: Scaffold(
         extendBodyBehindAppBar:
-            true, // Extends body behind the AppBar to make it part of the background
+            true, 
         appBar: AppBar(
           title: Text('Video Merger'),
           backgroundColor:
-              Colors.transparent, // Transparent background for the AppBar
-          elevation: 0, // Removes the shadow under the AppBar
+              Colors.transparent, 
+          elevation: 0,
           centerTitle: true,
           iconTheme: IconThemeData(
-              color: Colors.white), // Optional: Make drawer icon white
+              color: Colors.white), 
         ),
         drawer: Drawer(
           child: ListView(
             padding:
-                EdgeInsets.zero, // Ensures no padding around drawer content
+                EdgeInsets.zero, 
             children: [
               DrawerHeader(
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage(
-                        'assets/images/background2.jpg'), // Background image for the drawer header
+                        'assets/images/background2.jpg'), 
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -158,9 +158,9 @@ class _MyAppState extends State<MyApp> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     CircleAvatar(
-                      radius: 45, // Adjust the radius as needed
+                      radius: 45,
                       backgroundImage: AssetImage(
-                          'assets/images/background.jpg'), // Profile or logo image
+                          'assets/images/background.jpg'), 
                     ),
                     SizedBox(height: 10),
                     Text(
@@ -176,7 +176,7 @@ class _MyAppState extends State<MyApp> {
               ),
               ListTile(
                   leading: Icon(
-                      Icons.person_outline), // Icon for 'Contact Developer'
+                      Icons.person_outline), 
                   title: Text('Contact Developer'),
                   onTap: () {
                     launchUrl(Uri.parse("https://github.com/ShivamBari2728"));
@@ -188,8 +188,8 @@ class _MyAppState extends State<MyApp> {
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage(
-                  'assets/images/background2.jpg'), // Path to your image
-              fit: BoxFit.cover, // Adjust the image's fit
+                  'assets/images/background2.jpg'),
+              fit: BoxFit.cover, 
             ),
           ),
           child: Center(
@@ -199,36 +199,23 @@ class _MyAppState extends State<MyApp> {
                   Container(
                     height: 150,
                     padding: EdgeInsets.all(16.0),
-                    decoration: BoxDecoration(
-                        // color: Colors.amber,
-                        // image: DecorationImage(
-                        //   image: AssetImage(
-                        //       'assets/images/background.jpg'), // Background image path
-                        //   fit: BoxFit
-                        //       .cover, // Adjusts how the image fits in the container
-                        //   colorFilter: ColorFilter.mode(
-                        //     Colors.black.withOpacity(
-                        //         0.2), // Darkens the image for better text visibility
-                        //     BlendMode.darken,
-                        //   ),
-                        // ),
-                        ),
+                    
                     child: Center(
                       child: Container(
                         width: 300,
                         decoration: BoxDecoration(
                           color: Colors
-                              .transparent, // Background color of the container
+                              .transparent, 
                           borderRadius: BorderRadius.circular(
-                              10), // Optional: Rounded corners
+                              10), 
                           boxShadow: [
                             BoxShadow(
                               color: Colors.black.withOpacity(
-                                  0.2), // Shadow color with opacity
-                              spreadRadius: 5, // Spread radius of the shadow
-                              blurRadius: 5, // Blur radius of the shadow
+                                  0.2),
+                              spreadRadius: 5, 
+                              blurRadius: 5, 
                               offset:
-                                  Offset(0, 3), // Offset of the shadow (x, y)
+                                  Offset(0, 3), 
                             ),
                           ],
                         ),
@@ -236,19 +223,18 @@ class _MyAppState extends State<MyApp> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Icon(
-                              Icons.lightbulb, // Tip icon
+                              Icons.lightbulb, 
                               color: Colors.yellow,
                               size: 30,
                             ),
                             SizedBox(
-                                width: 10), // Spacing between icon and text
+                                width: 10),
                             Expanded(
                               child: Text(
                                 'Pick videos with same aspect ratio.',
                                 style: TextStyle(
                                   color:
-                                      Colors.white, // Text color for contrast
-                                  fontSize: 15,
+                                      Colors.white,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
@@ -260,7 +246,7 @@ class _MyAppState extends State<MyApp> {
                   ),
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    // crossAxisAlignment: CrossAxisAlignment.center,
+                    
                     children: [
                       SizedBox(
                         width: 200,
@@ -269,7 +255,7 @@ class _MyAppState extends State<MyApp> {
                           icon: Icon(
                             Icons.video_library,
                             color: Colors.white70,
-                          ), // Icon before the text
+                          ),
                           label: Text(
                             'Pick Videos',
                             style: TextStyle(color: Colors.white70),
@@ -277,10 +263,10 @@ class _MyAppState extends State<MyApp> {
                           style: ElevatedButton.styleFrom(
                             shape: RoundedRectangleBorder(
                               borderRadius:
-                                  BorderRadius.circular(12), // Rounded corners
+                                  BorderRadius.circular(12), 
                             ),
                             padding: EdgeInsets.symmetric(
-                                horizontal: 20, vertical: 16), // Button padding
+                                horizontal: 20, vertical: 16),
                           ),
                         ),
                       ),
@@ -299,7 +285,7 @@ class _MyAppState extends State<MyApp> {
                                 icon: Icon(
                                   Icons.merge_type,
                                   color: Colors.white70,
-                                ), // Icon for merging videos
+                                ), 
                                 label: Text(
                                   'Merge Videos',
                                   style: TextStyle(color: Colors.white70),
@@ -307,11 +293,11 @@ class _MyAppState extends State<MyApp> {
                                 style: ElevatedButton.styleFrom(
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(
-                                        12), // Rounded corners
+                                        12), 
                                   ),
                                   padding: EdgeInsets.symmetric(
                                       horizontal: 20,
-                                      vertical: 16), // Button padding
+                                      vertical: 16), 
                                 ),
                               ),
                             ),
