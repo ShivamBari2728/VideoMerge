@@ -1,16 +1,36 @@
-# videomerge
 
-A new Flutter project.
+# Video Merger
 
-## Getting Started
+This is a video merging app that can merge multiple videos at the same tine in order of selection. 
+## Run Locally
 
-This project is a starting point for a Flutter application.
+Clone the project
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+  git clone https://github.com/ShivamBari2728/VideoMerge
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Go to the project directory
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  cd VideoMerge
+```
+
+Clean project and install dependencies
+
+```bash
+  flutter clean
+  flutter pub get
+```
+
+Run app
+
+```bash
+  flutter run
+```
+
+
+## Screenshots
+
+
+
