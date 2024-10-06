@@ -31,8 +31,6 @@ Run app
 
 
 ## Screenshots
-![photo_2024-10-06_14-17-01](https://github.com/user-attachments/assets/d5fb9f78-c378-4b56-9a61-0b5e03d0a97d)
-![photo_2024-10-06_14-17-03](https://github.com/user-attachments/assets/4261f641-01f5-4f07-8f45-f2fc7c0a4315)
-
+<div style="display: flex; justify-content: space-around;"> <img src="https://github.com/user-attachments/assets/d5fb9f78-c378-4b56-9a61-0b5e03d0a97d" width="45%" style="margin-right: 10px;"/> <img src="https://github.com/user-attachments/assets/4261f641-01f5-4f07-8f45-f2fc7c0a4315" width="45%" style="margin-left: 10px;"/> </div>
 
 
