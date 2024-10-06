@@ -1,7 +1,7 @@
 
 # Video Merger
 
-This is a video merging app that can merge multiple videos at the same tine in order of selection. 
+This is a video merging app that can merge multiple videos at the same time in order of selection using [FFmpeg](https://pub.dev/documentation/flutter_ffmpeg/latest/) plugin for Flutter
 ## Run Locally
 
 Clone the project
